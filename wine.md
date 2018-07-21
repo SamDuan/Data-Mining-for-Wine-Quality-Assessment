@@ -168,10 +168,10 @@ Regression lines are more distinguishable in this case, indicating a stronger re
 Now we employ stepwise model selection to determine which chemical attributes have an important role on the wine quality.
 
     ## Start:  AIC=-1375.49
-    ## quality ~ fixed.acidity + volatile.acidity + citric.acid + residual.sugar + 
-    ##     chlorides + free.sulfur.dioxide + total.sulfur.dioxide + 
+    ## quality ~ fixed.acidity + volatile.acidity + citric.acid + residual.sugar +
+    ##     chlorides + free.sulfur.dioxide + total.sulfur.dioxide +
     ##     density + pH + sulphates + alcohol
-    ## 
+    ##
     ##                        Df Sum of Sq    RSS     AIC
     ## - density               1     0.287 666.70 -1376.8
     ## - fixed.acidity         1     0.389 666.80 -1376.5
@@ -185,12 +185,12 @@ Now we employ stepwise model selection to determine which chemical attributes ha
     ## - sulphates             1    26.971 693.38 -1314.0
     ## - volatile.acidity      1    33.620 700.03 -1298.8
     ## - alcohol               1    45.672 712.08 -1271.5
-    ## 
+    ##
     ## Step:  AIC=-1376.8
-    ## quality ~ fixed.acidity + volatile.acidity + citric.acid + residual.sugar + 
-    ##     chlorides + free.sulfur.dioxide + total.sulfur.dioxide + 
+    ## quality ~ fixed.acidity + volatile.acidity + citric.acid + residual.sugar +
+    ##     chlorides + free.sulfur.dioxide + total.sulfur.dioxide +
     ##     pH + sulphates + alcohol
-    ## 
+    ##
     ##                        Df Sum of Sq    RSS     AIC
     ## - fixed.acidity         1     0.108 666.81 -1378.5
     ## - residual.sugar        1     0.231 666.93 -1378.2
@@ -204,12 +204,12 @@ Now we employ stepwise model selection to determine which chemical attributes ha
     ## - sulphates             1    27.287 693.98 -1314.7
     ## - volatile.acidity      1    35.000 701.70 -1297.0
     ## - alcohol               1   119.669 786.37 -1114.8
-    ## 
+    ##
     ## Step:  AIC=-1378.54
-    ## quality ~ volatile.acidity + citric.acid + residual.sugar + chlorides + 
-    ##     free.sulfur.dioxide + total.sulfur.dioxide + pH + sulphates + 
+    ## quality ~ volatile.acidity + citric.acid + residual.sugar + chlorides +
+    ##     free.sulfur.dioxide + total.sulfur.dioxide + pH + sulphates +
     ##     alcohol
-    ## 
+    ##
     ##                        Df Sum of Sq    RSS     AIC
     ## - residual.sugar        1     0.257 667.06 -1379.9
     ## - citric.acid           1     0.565 667.37 -1379.2
@@ -223,11 +223,11 @@ Now we employ stepwise model selection to determine which chemical attributes ha
     ## - sulphates             1    27.673 694.48 -1315.5
     ## - volatile.acidity      1    36.234 703.04 -1295.9
     ## - alcohol               1   120.633 787.44 -1114.7
-    ## 
+    ##
     ## Step:  AIC=-1379.93
-    ## quality ~ volatile.acidity + citric.acid + chlorides + free.sulfur.dioxide + 
+    ## quality ~ volatile.acidity + citric.acid + chlorides + free.sulfur.dioxide +
     ##     total.sulfur.dioxide + pH + sulphates + alcohol
-    ## 
+    ##
     ##                        Df Sum of Sq    RSS     AIC
     ## - citric.acid           1     0.475 667.54 -1380.8
     ## <none>                              667.06 -1379.9
@@ -241,11 +241,11 @@ Now we employ stepwise model selection to determine which chemical attributes ha
     ## - sulphates             1    27.446 694.51 -1317.5
     ## - volatile.acidity      1    35.977 703.04 -1297.9
     ## - alcohol               1   122.667 789.73 -1112.0
-    ## 
+    ##
     ## Step:  AIC=-1380.79
-    ## quality ~ volatile.acidity + chlorides + free.sulfur.dioxide + 
+    ## quality ~ volatile.acidity + chlorides + free.sulfur.dioxide +
     ##     total.sulfur.dioxide + pH + sulphates + alcohol
-    ## 
+    ##
     ##                        Df Sum of Sq    RSS     AIC
     ## <none>                              667.54 -1380.8
     ## + citric.acid           1     0.475 667.06 -1379.9
@@ -333,4 +333,8 @@ In the multivariate section, it is quite challenging to decide where to start. F
 
 Lastly, based on the predictive model and above analysis, we conclude the amount of alcohol content in the wine is the most influential factor in determining the wine quality. In addition to alcohol, volatile acidity, sulphates, chlorides, total sulfur dioxide, pH, free sulfur dioxide (in the order of importance) are included in the final model to give the best fitting result.
 
-For the future work, different fitting algorithms can be implemented in search for a better model for prediction.
+For the future work, there are couple ideas to consider as follows:
+1. Different machine algorithms can be implemented in search for a better model for prediction.
+2. The trends we observed here are for red wines, but how about the behavior of the variables for white wines? What do we expect would change?
+3. We are only analyzing one specific type of wine from one specific country. How about other red wines from other types of the globe?
+4. It would worth considering why we have so many ‘average’ wines compared to poor and good ones. In practice, the ratings we have are averages that we obtained from different experts. Does that bias our analysis anyhow? Do we think ‘averaging’ the ratings provided by different tasters relate with having too many “average” final ratings?
