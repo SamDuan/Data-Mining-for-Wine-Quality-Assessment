@@ -321,7 +321,9 @@ Reflection
 
 This red wine quality was created using red wine samples (1599 observations as total), based on the median of at least 3 evaluation made by wine experts. 11 quantitative wine attributes, which were generated through more objective tests, are included in this data set.
 
-To help us understand the analysis better, we divided the variables into 3 groups, namely, the acidity-related group, the sulfur-related group and the standalone variables group.
+At the beginning, while 13 variables doesn't seem like much, it does lead to a lot of dead ends which was very time consuming.
+
+Then we thought that our analysis may be simplified by regrouping the variables. Thus, we divided the variables into 3 groups, namely, the acidity-related group, the sulfur-related group and the standalone variables group. It makes the whole process analysis more straight forward and clearer.
 
 In the univariate section, histograms provide a general idea of the dataset we are handling, but do not so shed too much light on their relationship. It was suspected that a closer likeness between the variables' distribution may lead to a stronger relationship, but it was proved to be partially right as we proceeded to the bivariate section.
 
