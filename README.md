@@ -2,7 +2,9 @@
 Wine quality, as Maynard Amerine once said, is easier to detect than define.
 This is due to wine quality being primarily subjective to each individual.
 
-![](/wine_files/readme-wine-quality.jpg)
+<p align="center">
+  <img src="wine_files/readme-wine-quality.jpg"/>
+</p>
 
 In this project, I use R and apply data analysis techniques to aim to quantify
 and to relate this very *subjective* taste of the wine with the chemical
