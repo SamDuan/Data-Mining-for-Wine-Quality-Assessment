@@ -1,9 +1,16 @@
 # Data Mining for Wine Quality Assessment
-In this project I'm going to use R to investigate red wine quality. The final
-result will include predictive model and patterns discovery of red quality based
-on chemical properties. In the first section presented data exploration. In the
-second part building predictive model.
+Wine quality, as Maynard Amerine once said, is easier to detect than define.
+This is due to quality being primarily subjective to each individual.
 
-See more details at [the summary page](https://github.com/SamDuan/Data-Mining-for-Wine-Quality-Assessment/blob/master/wine.md)
+In this project, I'm going to use R and apply data analysis techniques to
+quantify and relate this very subjective taste of the wine with the chemical
+properties the wine, which are more objective.
 
 ![](/wine_files/readme-wine-quality.jpg)
+
+Exploratory data analysis is an approach to analyzing data sets to summarize
+their main characteristics, often with visual methods (Wikipedia). The following
+ report details patterns discovery of red wine quality through data Exploration
+  and building of the predictive model based on chemical properties.
+
+The complete R markdown can be access [here](https://github.com/SamDuan/Data-Mining-for-Wine-Quality-Assessment/blob/master/wine.md)
