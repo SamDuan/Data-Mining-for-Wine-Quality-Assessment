@@ -25,5 +25,5 @@ be installed:
 * GGally
 * gridExtra
 
-#3 License
+## License
 The program is released under a MIT license.
