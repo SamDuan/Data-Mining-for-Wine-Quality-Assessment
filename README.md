@@ -6,4 +6,4 @@ second part building predictive model.
 
 See more details at [the summary page](https://github.com/SamDuan/Data-Mining-for-Wine-Quality-Assessment/blob/master/wine.md)
 
-![wines](/wine_files/readme-wine-quality.gif)
+![](/wine_files/readme-wine-quality.gif)
