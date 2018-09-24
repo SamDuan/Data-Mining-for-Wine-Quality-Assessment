@@ -15,15 +15,15 @@ their main characteristics, often with visual methods (Wikipedia). The following
 
 The complete R markdown can be access [here](https://github.com/SamDuan/Data-Mining-for-Wine-Quality-Assessment/blob/master/wine.md).
 
-# Data Source
+## Data Source
 The dataset is provided by Udacity and can be downloaded [here](https://s3.amazonaws.com/udacity-hosted-downloads/ud651/wineQualityReds.csv).
 
-# Requirements
+## Requirements
 R 3.2.2 or above is required to run the file and the following libraries need to
 be installed:
 * ggplot2
 * GGally
 * gridExtra
 
-# License
+#3 License
 The program is released under a MIT license.
