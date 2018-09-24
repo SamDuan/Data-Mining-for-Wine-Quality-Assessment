@@ -5,7 +5,7 @@ Samuel Duan
 Abstract
 --------
 
-In this project I'm going to investigate red wine quality. The final result will include predictive model and patterns discovery of red quality based on chemical properties. In the first section presented data exploration. In the second part building predictive model.
+In this project, I'm going to use R and apply data analysis techniques to identify the factors affecting red wine quality. Exploratory data analysis is an approach to analyzing data sets to summarize their main characteristics, often with visual methods (Wikipedia). The final result will include patterns discovery of red quality and predictive model based on chemical properties. The first section entails data exploration and the second part involves building predictive model.
 
 Univariate Plots Section
 ------------------------
