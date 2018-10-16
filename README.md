@@ -1,4 +1,4 @@
-# Data Mining for Wine Quality Assessment
+## About
 Wine quality, as Maynard Amerine once said, is easier to detect than define.
 This is due to wine quality being primarily subjective to each individual.
 
